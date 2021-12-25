@@ -1,0 +1,30 @@
+.project{
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__view {
+    top: 165px;
+    left: -40px;
+    position: relative;
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a1c5e9;
+  }
+
+  &__view-img {
+    position: absolute;
+    top: 4px;
+    padding-left: 20px;
+  }
+
+  &__img{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 30px;
+  }
+  &__img-item{
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,76 @@
+.footer {
+  padding: 48px 0 32px;
+
+  &__inner {
+    display: flex;
+  }
+
+  &__item-copy {
+    line-height: 26px;
+  }
+
+  &__item-comp {
+    margin-left: 164px;
+  }
+
+  &__item-sup {
+    margin-left: 120px;
+  }
+
+  &__item-touch {
+    margin-left: 70px;
+  }
+
+  &__socmed-list {
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+  }
+
+  &__socmed-item+.footer__socmed-item {
+    padding-left: 10px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  &__link {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__form {
+    position: relative;
+    max-width: 255px;
+    width: 100%;
+
+    &-input {
+      background-color: rgba(#fff, .2);
+      border-radius: 8px;
+      max-width: 255px;
+      width: 100%;
+      border: none;
+      padding: 12px 64px 12px 15px;
+
+      &::placeholder {
+        color: #D9DBE1;
+      }
+    }
+
+    &-btn {
+      background-color: transparent;
+      border: 0;
+      position: absolute;
+      top: 11px;
+      right: 4px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.business {
+  background-color: #1e2028;
+  margin: 50px 0;
+
+  &__wrapper {
+    max-width: 777px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-bottom: 36px;
+  }
+
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  &__content {
+    display: flex;
+
+
+  }
+
+  &__content-item {
+    width: 240px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    text-align: center;
+
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
+
+  &__number {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    line-height: 26px
+  }
+}

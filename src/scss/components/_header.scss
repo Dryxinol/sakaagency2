@@ -1,0 +1,8 @@
+.header {
+  padding-top: 19px;
+
+  &__container {
+    @include flex-all-sb;
+  }
+
+}

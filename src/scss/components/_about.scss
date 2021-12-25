@@ -1,0 +1,40 @@
+.title--left {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.block__info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about {
+  
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  &__item {
+    width: 460px;
+    height: 107px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+  }
+
+  &__title {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: capitalize;
+  }
+
+  &__descr p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 187%;
+    text-transform: capitalize;
+  }
+}
